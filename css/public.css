@@ -1,0 +1,235 @@
+/* 
+* public.css 公共样式库
+* create by Chloe Young on 2017/4/27
+* */
+/* 
+* 版心的宽度为1024px
+* */
+.w{
+	width:1024px;
+	margin:0 auto;
+}
+/* 
+* padding & margin  
+* 示例： pl10即为padding-left的值为10px; ml10即为margin-left的值为10px
+* */
+.pl10{
+	padding-left:10px;
+}
+.pl20{
+	padding-left:20px;
+}
+.pl30{
+	padding-left:30px;
+}
+.pr10{
+	padding-right:10px;
+}
+.pr20{
+	padding-right:20px;
+}
+.pr40{
+	padding-right:40px;
+}
+.pt10{
+	padding-top:10px;
+}
+.pt20{
+	padding-top:20px;
+}
+.pt30{
+	padding-top:30px;
+}
+.pb10{
+	padding-bottom:10px;
+}
+.pb20{
+	padding-bottom:20px;
+}
+.pb30{
+	padding-bottom:30px;
+}
+.ml10{
+	margin-left:10px;
+}
+.ml20{
+	padding-left:20px;
+}
+.ml30{
+	padding-left:30px;
+}
+.mr10{
+	margin-right:10px;
+}
+.mr20{
+	padding-right:20px;
+}
+.mr30{
+	padding-right:30px;
+}
+.mt10{
+	margin-top:10px;
+}
+.mt20{
+	padding-top:20px;
+}
+.mt30{
+	padding-top:30px;
+}
+.mb10{
+	margin-bottom:10px;
+}
+.mb20{
+	padding-bottom:20px;
+}
+.mb30{
+	padding-bottom:30px;
+}
+/* 
+*头部样式
+*  */
+.header{
+	width:100%;
+}
+.login-header{
+	height:80px;
+	line-height:80px;
+}
+/* 
+* 底部样式
+* 
+* */
+.footer{
+	width:100%;
+	border-top:1px solid #e8e8e8;
+	height:100px;
+	margin-top:20px;
+}
+.footer-heart{
+	height:100%;
+	text-align:center;
+}
+.footer-heart p{
+	line-height:20px;
+	margin-top:10px;
+}
+.footer-about span{
+	font-size:14px;
+	color:#4d4d4d;
+	margin:0 5px;
+	cursor:pointer;
+}
+.footer-des{
+	color:#888888;
+	font-size:12px;
+}
+/* 
+* 按钮样式库 
+* 
+* */
+button{
+	border:none;
+	outline:none;
+	border-radius:4px;
+	font-size:16px;
+}
+.lbtn-blue,.mbtn-blue,.sbtn-blue{
+	height:36px;
+	background-color:#00a2c9;
+	color:#e7fffc;
+}
+.lbtn-blue{
+	width:220px;
+}
+.mbtn-blue{
+	width:160px;
+}
+.sbtn-blue{
+	width:100px;
+}
+.lbtn-org,.mbtn-org,.sbtn-org{
+	height:36px;
+	background-color:#fc8608;
+	color:#fffffb;
+}
+.lbtn-org{
+	width:220px;
+}
+.mbtn-org{
+	width:160px;
+}
+.sbtn-org{
+	width:100px;
+}
+.lbtn-red,.mbtn-red,.sbtn-red{
+	height:36px;
+	background-color:#f80000;
+	color:#ffffff;
+}
+.lbtn-red{
+	width:220px;
+}
+.mbtn-red{
+	width:160px;
+}
+.sbtn-red{
+	width:100px;
+}
+.lbtn-grey,.mbtn-grey,.sbtn-grey{
+	background-color:#dcdcdc;
+	height:36px;
+	color:#404040;
+}
+.lbtn-grey{
+	width:220px;
+}
+.mbtn-grey{
+	width:160px;
+}
+.sbtn-grey{
+	width:100px;
+}
+.lbtn-white,.mbtn-white,.sbtn-white{
+	height:34px;
+	color:#9c9c9c;
+	border:1px solid #9c9c9c;
+	background-color:#f4f4f4;
+}
+.lbtn-white{
+	width:218px;
+}
+.mbtn-white{
+	width:158px;
+}
+.sbtn-white{
+	width:98px;
+}
+.lbtn-green,.mbtn-green,.sbtn-green{
+	height:36px;
+	background-color:#00c4c2;
+	color:#e7fffc;
+}
+.lbtn-green{
+	width:220px;
+}
+.mbtn-green{
+	width:160px;
+}
+.sbtn-green{
+	width:100px;
+}
+/* 
+* 输入框样式库 
+* 
+* */
+input{
+	border:1px solid #9c9c9c;
+	outline:none;
+	height:34px;
+	border-radius:4px;
+	padding-left:10px;
+}
+/* 
+* 弹出框样式库 
+*
+* */

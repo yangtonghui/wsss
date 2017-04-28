@@ -1,0 +1,49 @@
+/* 
+*login.css 登录样式
+*create by Chloe Young on 2017/4/27
+ */
+.login-header{
+	height:80px;
+	overflow:hidden;
+
+}
+.login-logo{
+	height:60px;
+	margin-top:10px;
+	float:left;
+}
+.login-help{
+	float:right;
+	height:30px;
+	line-height:30px;
+	width:200px;
+	color:#858585;
+	font-size:14px;
+	margin-top:50px;
+}
+.login-help-word{
+	padding-left:5px;
+	padding-right:15px;
+	background:url(../../imgs/sanjiaoDown.png) no-repeat center right;
+}
+.login-help span{
+	border-left:1px solid #858585;
+	cursor:pointer;
+}
+.login-main{
+	width:100%;
+	height:470px;
+	background-color:#00a2ca;
+}
+.login-main-heart{
+	height:470px;
+	background:url(../../imgs/loginBg.png) no-repeat center left;
+}
+.login-box{
+	width:320px;
+	height:328px;
+	margin-top:60px;
+	margin-right:40px;
+	float:right;
+	background-color:#f7f7f7;
+}
