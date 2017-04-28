@@ -41,9 +41,56 @@
 }
 .login-box{
 	width:320px;
-	height:328px;
+	height:340px;
 	margin-top:60px;
 	margin-right:40px;
 	float:right;
 	background-color:#f7f7f7;
+	color:#121212;
+}
+.login-box-title{
+	width:314px;
+	height:45px;
+	line-height:45px;
+	margin-top:16px;
+	border-left: 6px solid #f9870d;
+	border-bottom:1px solid #e7e7e7;
+}
+.login-usertype{
+	padding:4px;
+	font-size:18px;
+	margin:0 34px;
+}
+.login-usertype-cur{
+	border-bottom:2px solid #00a0c4;
+}
+.login-box-main{
+	width:300px;
+	text-align:center;
+	padding-top: 30px
+}
+.login-box-main label{
+	display:inline-block;
+	width:60px;
+	text-align: right;
+	font-size:14px;
+}
+.login-box-main input{
+	height:24px;
+	font-size:14px;
+	width:140px;
+}
+.login-box-main p{
+	line-height:24px;
+	height:24px;
+}
+.login-other{
+	height:50px!important;
+	line-height: 50px!important;
+	padding-right:30px;
+	font-size:14px;
+	text-align:right;
+}
+.login-other span{
+	margin-left:5px;
 }
